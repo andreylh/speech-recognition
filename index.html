@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Reconhecimento de Voz</title>
+	<meta name="description" content="" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="includes/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container main">
+
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3 text-center">
+                <h1 class="page-header">Reconhecimento de Voz</h1>
+                <a class="btn btn-success btn-lg" id="recButton" href="#">
+                    <i class="fa fa-microphone fa-lg" aria-hidden="true" id="micIcon"></i> <span>Iniciar Gravação</span>
+                </a>
+            </div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<textarea class="form-control" id="output" placeholder="Texto" rows="3"></textarea>
+			</div>
+		</div>
+    </div>
+
+	<script src="lib/jquery/jquery-3.1.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	<script src="lib/recorderjs/recorder.js"></script>
+    <script src="includes/js/script.js"></script>
+</body>
+</html>
